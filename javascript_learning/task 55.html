@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        const myObject = {
+  value: 10,
+  multiplyTraditional: function (num) {
+    return this.value * num;
+  },
+  multiplyArrow: (num) => this.value * num, 
+};
+
+console.log(myObject.multiplyTraditional(2)); 
+console.log(myObject.multiplyArrow(2)); 
+
+    </Script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+type conversions :
+    1 string
+    2 numeric
+    3 booleam 
+
+mathematical operators
+    1 exponential operator//new operator
+
+functions iin javascript:
+========================
+
+    example syntac:
+         Let usernmae = 'John';
+
+         function showMessage(){
+            Let message = 'Hello' + usernmae;
+            alert(message);
+         }
+         showMessage();//hello John
+
+    functions experssion :
+         functiomn sayhi(){
+            alert("helllo");
+         }
+         Let func = sayHi;
+         func();
+
+    CALL BACK FUNCTIONS(WIEDLY USED IN REACT):
+    -----------------------------------------
+         function ask(question ,yes,no){
+            if(confirm(question)) yes()
+            else no();
+         }
+         function showOK(){
+            alert("You agreed.");
+         }
+         function showcancel(){
+            alert("you cancelled the excecution.");
+         }
+
+ ARROW FUNCTIONS:
+<--------------->
+
+        1. let func = (arg1,arg2,...argN) =>experssion
+
+        2.shorter version:
+            let func = function(arg1,arg2,....argN){
+                return func;
+            };
+
+
+        examples::
+        
+        let sum = (a,b) => a+b;
+                        
+        normal code:            let sum = functions(a,b){
+        -----------                 return a+b;
+                                };
+
+        alert(sum(1,2));
